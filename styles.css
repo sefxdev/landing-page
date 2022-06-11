@@ -2,12 +2,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  padding: 0.5em 15em;
   background-color: #1f2937;
 }
 
 header {
+  padding: 0.5em 15em;
   background-color: #1f2937;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -77,4 +78,37 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.random {
+ text-align: center;
+  padding: 2em 15em;
+  background-color: #fff;
+  
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  max-width:200px;
+  
+}
+
+.card {
+  border: solid 4px blue;
+  border-radius: 10px;
+  padding: 10px;
+  width: 160px;
+  height: 160px;
+
+}
+
+.thumbnail-text {
+  display: block;
 }
