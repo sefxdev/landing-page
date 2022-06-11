@@ -138,3 +138,41 @@ nav ul {
   align-self: flex-end;
   font-weight: 600;
 }
+
+.call-to-action-section {
+  background-color: #fff;
+  padding: 5em 15em;
+
+}
+
+.call-to-action-container {
+    background-color: #3882f6;
+    padding: 2em 10em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb
+}
+
+.call-to-action-left h3,p{
+  padding: 0;
+  margin: 5px 0;
+}
+
+.call-to-action-left h3 {
+  font-size: 24px;
+}
+
+.call-to-action-right {
+  display: flex;
+}
+.call-to-action-btn {
+  align-self: center;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  width: 125px;
+  padding: 10px;
+}
